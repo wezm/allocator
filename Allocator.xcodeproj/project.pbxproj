@@ -16,6 +16,7 @@
 		B199A1310F5A569F00C1F90F /* Bucket.rb in Resources */ = {isa = PBXBuildFile; fileRef = B199A1300F5A569F00C1F90F /* Bucket.rb */; };
 		B199A1650F5A5D8100C1F90F /* Budget.rb in Resources */ = {isa = PBXBuildFile; fileRef = B199A1640F5A5D8100C1F90F /* Budget.rb */; };
 		B199A1680F5A600500C1F90F /* AppController.rb in Resources */ = {isa = PBXBuildFile; fileRef = B199A1670F5A600500C1F90F /* AppController.rb */; };
+		B199A1B00F5A6D7000C1F90F /* budget_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = B199A1AF0F5A6D7000C1F90F /* budget_spec.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B199A1300F5A569F00C1F90F /* Bucket.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Bucket.rb; sourceTree = "<group>"; };
 		B199A1640F5A5D8100C1F90F /* Budget.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Budget.rb; sourceTree = "<group>"; };
 		B199A1670F5A600500C1F90F /* AppController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppController.rb; sourceTree = "<group>"; };
+		B199A1AF0F5A6D7000C1F90F /* budget_spec.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = budget_spec.rb; path = spec/budget_spec.rb; sourceTree = "<group>"; };
 		E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /System/Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
 		E8F5E25803AEB7C803A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 		29B97314FDCFA39411CA2CEA /* Allocator */ = {
 			isa = PBXGroup;
 			children = (
+				B199A1AE0F5A6D5D00C1F90F /* Tests */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -123,6 +126,14 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B199A1AE0F5A6D5D00C1F90F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B199A1AF0F5A6D7000C1F90F /* budget_spec.rb */,
+			);
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				B199A1310F5A569F00C1F90F /* Bucket.rb in Resources */,
 				B199A1650F5A5D8100C1F90F /* Budget.rb in Resources */,
 				B199A1680F5A600500C1F90F /* AppController.rb in Resources */,
+				B199A1B00F5A6D7000C1F90F /* budget_spec.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
