@@ -6,7 +6,7 @@
 #  Copyright (c) 2009 __MyCompanyName__. All rights reserved.
 #
 
-require 'budget'
+require 'allocator'
 
 describe "Opening a moneywell file" do
 

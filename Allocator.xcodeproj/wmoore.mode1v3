@@ -275,8 +275,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
-									<integer>3</integer>
+									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>allocator.rb</string>
+								<string>budget_spec.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,19 +326,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>allocator.rb</string>
+										<string>budget_spec.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B199A22A0F5A9EC100C1F90F</string>
+										<string>B199A22E0F5A9F4900C1F90F</string>
 										<key>history</key>
 										<array>
 											<string>B199A1B20F5A6EFD00C1F90F</string>
 											<string>B199A1B30F5A6EFD00C1F90F</string>
 											<string>B199A1B40F5A6EFD00C1F90F</string>
-											<string>B199A1E60F5A936F00C1F90F</string>
 											<string>B199A2110F5A9AFC00C1F90F</string>
-											<string>B199A2120F5A9AFC00C1F90F</string>
+											<string>B199A22B0F5A9F4900C1F90F</string>
+											<string>B199A22C0F5A9F4900C1F90F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -364,6 +364,7 @@
 											<string>B199A20C0F5A98AB00C1F90F</string>
 											<string>B199A20D0F5A98AB00C1F90F</string>
 											<string>B199A2130F5A9AFC00C1F90F</string>
+											<string>B199A22D0F5A9F4900C1F90F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
