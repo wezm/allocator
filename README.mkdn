@@ -1,8 +1,9 @@
 Allocator
 ========
 
-An application to generate spending plans/allocations for [MoneyWell][no-thirst]
-using a fortnightly cycle instead of its built in monthly one.
+An application to generate adaptive spending plans/allocations for
+[MoneyWell][no-thirst] using a fortnightly cycle instead of its built in monthly
+one.
 
 This project is also an experiment in using Cocoa-Ruby... or is that Ruby Cocoa?
 
