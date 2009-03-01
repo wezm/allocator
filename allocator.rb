@@ -17,31 +17,35 @@ module Allocator
 		'Annually',
 	]
 
-	class Bucket
+	class Bucket < OSX::NSObject
 
+		def initWithName(name)
+			@name = name
+			init
+			self
+		end
 		
+		attr_reader :name
+				
+		def allocation
+			0
+		end
 
 	end
 	
 	class Budget
 
-		def initialize(db_path)
+		def initialize
+			@buckets = []
+		end
+
+		attr_reader :buckets
+
+		def load_buckets_from_file(db_path)
 			@db = Sequel.sqlite(db_path)
-		end
-
-		def buckets
-			@buckets ||= load_buckets
-		end
-
-		private
-
-		def load_buckets
-			@buckets = OSX::NSMutableArray.alloc.init
 			zbuckets = @db[:zbucket]
-			zbuckets.select(:zname, :zfrequency).each do |row|
-			# puts bucket[:zname]
-			bucket = Bucket.new(row.name)
-
+			zbuckets.select(:zname, :zfrequency).where(:zishidden => 0).each do |row|
+				@buckets << Bucket.alloc.initWithName(row[:zname])
 			end
 		end
 

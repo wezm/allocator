@@ -1,16 +1,16 @@
 require 'osx/cocoa'
-require 'budget'
+require 'allocator'
 
 class AppController < OSX::NSObject
 
 
-#	def init
-#		if super_init != nil
-#			@bud = OSX::NSArray.alloc.init
-#		end
-#		
-#		self
-#	end
+	def init
+		if super_init != nil
+			@budget = Allocator::Budget.new
+		end
+		
+		self
+	end
 
 	ib_outlets :main_window
 
@@ -30,9 +30,12 @@ class AppController < OSX::NSObject
 	
 	def openPanelDidEnd_returnCode_contextInfo(panel, return_code, context_info)
 		return if return_code == OSX::NSCancelButton
-		
-		OSX::NSLog 'Open a file!'
-		@budget = Budget.new(panel.filenames.first)
+		self.willChangeValueForKey('buckets')
+		@budget.load_buckets_from_file(panel.filenames.first)
+		self.didChangeValueForKey('buckets')
+	end
+	
+	def buckets
 		@budget.buckets
 	end
 		
