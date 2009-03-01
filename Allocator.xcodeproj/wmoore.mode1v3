@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Budget.rb</string>
+								<string>budget_spec.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Budget.rb</string>
+										<string>budget_spec.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B199A1D00F5A6EFD00C1F90F</string>
+										<string>B199A1E00F5A7A2000C1F90F</string>
 										<key>history</key>
 										<array>
 											<string>B199A1B20F5A6EFD00C1F90F</string>
@@ -338,7 +338,8 @@
 											<string>B199A1B40F5A6EFD00C1F90F</string>
 											<string>B199A1B50F5A6EFD00C1F90F</string>
 											<string>B199A1B60F5A6EFD00C1F90F</string>
-											<string>B199A1B70F5A6EFD00C1F90F</string>
+											<string>B199A1DD0F5A7A2000C1F90F</string>
+											<string>B199A1DE0F5A7A2000C1F90F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -366,6 +367,7 @@
 											<string>B199A1CD0F5A6EFD00C1F90F</string>
 											<string>B199A1CE0F5A6EFD00C1F90F</string>
 											<string>B199A1CF0F5A6EFD00C1F90F</string>
+											<string>B199A1DF0F5A7A2000C1F90F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
