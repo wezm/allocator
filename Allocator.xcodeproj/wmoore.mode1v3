@@ -275,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>budget_spec.rb</string>
+								<string>bucket_spec.rb</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,20 +326,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>budget_spec.rb</string>
+										<string>bucket_spec.rb</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B199A2580F5BDC3700C1F90F</string>
+										<string>B199A2950F5BE49300C1F90F</string>
 										<key>history</key>
 										<array>
 											<string>B199A1B20F5A6EFD00C1F90F</string>
 											<string>B199A1B30F5A6EFD00C1F90F</string>
 											<string>B199A1B40F5A6EFD00C1F90F</string>
-											<string>B199A24F0F5BDC3700C1F90F</string>
-											<string>B199A2500F5BDC3700C1F90F</string>
-											<string>B199A2510F5BDC3700C1F90F</string>
-											<string>B199A2520F5BDC3700C1F90F</string>
+											<string>B199A25E0F5BDC9A00C1F90F</string>
+											<string>B199A2910F5BE49300C1F90F</string>
+											<string>B199A2920F5BE49300C1F90F</string>
+											<string>B199A2770F5BE17000C1F90F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -385,6 +385,13 @@
 											<string>B199A2550F5BDC3700C1F90F</string>
 											<string>B199A2560F5BDC3700C1F90F</string>
 											<string>B199A2570F5BDC3700C1F90F</string>
+											<string>B199A2600F5BDC9A00C1F90F</string>
+											<string>B199A2610F5BDC9A00C1F90F</string>
+											<string>B199A26B0F5BDE9300C1F90F</string>
+											<string>B199A2700F5BDEE600C1F90F</string>
+											<string>B199A2790F5BE17000C1F90F</string>
+											<string>B199A2930F5BE49300C1F90F</string>
+											<string>B199A2940F5BE49300C1F90F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -578,8 +585,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
+		<string>B199A2880F5BE3AF00C1F90F</string>
+		<string>B199A2890F5BE3AF00C1F90F</string>
 		<string>B199A1800F5A652000C1F90F</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/wmoore/Source/Allocator/Allocator.xcodeproj</string>
 	</array>
@@ -705,8 +714,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 185}}</string>
-											<string>{{316, 0}, {378, 185}}</string>
+											<string>{{0, 0}, {486, 277}}</string>
+											<string>{{486, 0}, {582, 277}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -721,8 +730,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 185}}</string>
-											<string>{{0, 185}, {694, 196}}</string>
+											<string>{{0, 0}, {1068, 277}}</string>
+											<string>{{0, 277}, {1068, 294}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -742,7 +751,7 @@
 								<key>DebugSTDIOWindowFrame</key>
 								<string>{{200, 200}, {500, 300}}</string>
 								<key>Frame</key>
-								<string>{{0, 0}, {694, 381}}</string>
+								<string>{{0, 0}, {1068, 571}}</string>
 								<key>PBXDebugSessionStackFrameViewKey</key>
 								<dict>
 									<key>DebugVariablesTableConfiguration</key>
@@ -752,24 +761,24 @@
 										<string>Value</string>
 										<real>85</real>
 										<string>Summary</string>
-										<real>148</real>
+										<real>352</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 185}}</string>
+									<string>{{486, 0}, {582, 277}}</string>
 									<key>RubberWindowFrame</key>
-									<string>21 333 694 422 0 0 1280 778 </string>
+									<string>21 143 1068 612 0 0 1280 778 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>21 333 694 422 0 0 1280 778 </string>
+								<string>21 143 1068 612 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
 							<key>Proportion</key>
-							<string>381pt</string>
+							<string>571pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>381pt</string>
+					<string>571pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -794,11 +803,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>21 333 694 422 0 0 1280 778 </string>
+			<string>21 143 1068 612 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

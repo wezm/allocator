@@ -20,7 +20,7 @@ module Allocator
 	class Bucket < OSX::NSObject
 
 		def initWithName(name)
-			@name = name
+			@name = name #OSX::NSString.alloc.initWithString(name)
 			init
 			self
 		end
@@ -45,7 +45,7 @@ module Allocator
 			@db = Sequel.sqlite(db_path)
 			zbuckets = @db[:zbucket]
 			zbuckets.select(:zname, :zfrequency).where(:zishidden => 0).each do |row|
-				@buckets << Bucket.alloc.initWithName(row[:zname])
+				@buckets << Bucket.alloc.initWithName(row[:ZNAME])
 			end
 		end
 

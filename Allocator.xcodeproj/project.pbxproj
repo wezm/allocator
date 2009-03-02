@@ -15,7 +15,6 @@
 		4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
 		B199A1680F5A600500C1F90F /* AppController.rb in Resources */ = {isa = PBXBuildFile; fileRef = B199A1670F5A600500C1F90F /* AppController.rb */; };
 		B199A1E30F5A925900C1F90F /* allocator.rb in Resources */ = {isa = PBXBuildFile; fileRef = B199A1E20F5A925900C1F90F /* allocator.rb */; };
-		B199A2300F5A9F8300C1F90F /* bucket_spec.rb in Resources */ = {isa = PBXBuildFile; fileRef = B199A22F0F5A9F8300C1F90F /* bucket_spec.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -194,7 +193,6 @@
 				4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */,
 				B199A1680F5A600500C1F90F /* AppController.rb in Resources */,
 				B199A1E30F5A925900C1F90F /* allocator.rb in Resources */,
-				B199A2300F5A9F8300C1F90F /* bucket_spec.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

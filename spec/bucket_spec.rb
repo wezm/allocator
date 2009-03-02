@@ -13,8 +13,10 @@ describe Allocator::Bucket do
 			@bucket.name.should == 'Bucket name'
 		end
 	
-		it "can be accessed by key value coding"
-	
+		it "can be accessed by key value coding" do
+			name = @bucket.valueForKey('name').should == 'Bucket name'
+		end
+		
 	end
 
 end
