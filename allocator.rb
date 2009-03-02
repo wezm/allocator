@@ -21,11 +21,12 @@ module Allocator
 
 		def initWithName(name)
 			@name = name #OSX::NSString.alloc.initWithString(name)
+			@frequency = 0
 			init
 			self
 		end
 		
-		attr_reader :name
+		attr_reader :name, :frequency
 				
 		def allocation
 			0

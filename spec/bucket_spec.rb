@@ -19,4 +19,16 @@ describe Allocator::Bucket do
 		
 	end
 
+	describe "#frequency" do
+	
+		it "can be accessed directly" do
+			@bucket.frequency.should == 0
+		end
+	
+		it "can be accessed by key value coding" do
+			name = @bucket.valueForKey('frequency').should == 0
+		end
+		
+	end
+
 end

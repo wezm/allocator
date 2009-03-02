@@ -12,7 +12,16 @@ class AppController < OSX::NSObject
 		self
 	end
 
-	ib_outlets :main_window
+	ib_outlets :main_window, :bucket_table
+
+	def awakeFromNib
+		# Set the options in the Frequency Cell
+		frequency_col = @bucket_table.tableColumnWithIdentifier('frequency')
+		if frequency_col
+			cell = frequency_col.dataCell
+			cell.addItemsWithObjectValues(Allocator::FREQUENCIES)
+		end
+	end
 
     ib_action :open_file do |sender|
 		open_panel = OSX::NSOpenPanel.openPanel
