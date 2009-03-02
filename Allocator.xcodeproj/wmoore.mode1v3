@@ -275,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -330,15 +330,16 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B199A22E0F5A9F4900C1F90F</string>
+										<string>B199A2580F5BDC3700C1F90F</string>
 										<key>history</key>
 										<array>
 											<string>B199A1B20F5A6EFD00C1F90F</string>
 											<string>B199A1B30F5A6EFD00C1F90F</string>
 											<string>B199A1B40F5A6EFD00C1F90F</string>
-											<string>B199A2110F5A9AFC00C1F90F</string>
-											<string>B199A22B0F5A9F4900C1F90F</string>
-											<string>B199A22C0F5A9F4900C1F90F</string>
+											<string>B199A24F0F5BDC3700C1F90F</string>
+											<string>B199A2500F5BDC3700C1F90F</string>
+											<string>B199A2510F5BDC3700C1F90F</string>
+											<string>B199A2520F5BDC3700C1F90F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -365,6 +366,25 @@
 											<string>B199A20D0F5A98AB00C1F90F</string>
 											<string>B199A2130F5A9AFC00C1F90F</string>
 											<string>B199A22D0F5A9F4900C1F90F</string>
+											<string>B199A2340F5BD63900C1F90F</string>
+											<string>B199A2350F5BD63900C1F90F</string>
+											<string>B199A2360F5BD63900C1F90F</string>
+											<string>B199A2370F5BD63900C1F90F</string>
+											<string>B199A2380F5BD63900C1F90F</string>
+											<string>B199A2390F5BD63900C1F90F</string>
+											<string>B199A23E0F5BD6FA00C1F90F</string>
+											<string>B199A23F0F5BD6FA00C1F90F</string>
+											<string>B199A2400F5BD6FA00C1F90F</string>
+											<string>B199A2440F5BD74800C1F90F</string>
+											<string>B199A2490F5BDB3E00C1F90F</string>
+											<string>B199A24A0F5BDB3E00C1F90F</string>
+											<string>B199A24B0F5BDB3E00C1F90F</string>
+											<string>B199A24C0F5BDB3E00C1F90F</string>
+											<string>B199A2530F5BDC3700C1F90F</string>
+											<string>B199A2540F5BDC3700C1F90F</string>
+											<string>B199A2550F5BDC3700C1F90F</string>
+											<string>B199A2560F5BDC3700C1F90F</string>
+											<string>B199A2570F5BDC3700C1F90F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

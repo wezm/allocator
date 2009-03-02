@@ -11,14 +11,21 @@ require 'allocator'
 describe "Opening a moneywell file" do
 
 	before do
-		@file = 'test.moneywell'
+		@budget = Allocator::Budget.new
 	end
 
 	it "should connect to the db file" do
-		mock_db = mock('db')
-		Sequel.should_receive(:sqlite).with(@file).and_return(mock_db)
-		budget = Budget.new(@file)
-		
+		pending "refactor to make class more testable"
+		mock_table = mock('table')
+		db = {:zbucket => mock_table}
+		mock_table.should_receive(:select).with(:zname, :zfrequency).and_return([
+			{:name => 'Bucket 1', :zfrequency => 0},
+			{:name => 'Bucket 2', :zfrequency => 5},
+		])
+		Sequel.should_receive(:sqlite).with('test.moneywell').and_return(db)
+		@budget.load_buckets_from_file('test.moneywell')
 	end
+	
+	it "should handle connection errors"
 
 end

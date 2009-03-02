@@ -4,11 +4,17 @@ require 'allocator'
 describe Allocator::Bucket do
 
 	before do
-		#@bucket = 
+		@bucket = Allocator::Bucket.alloc.initWithName('Bucket name')
 	end
 
-	it "has a name" do
-		
+	describe "#name" do
+	
+		it "can be accessed directly" do
+			@bucket.name.should == 'Bucket name'
+		end
+	
+		it "can be accessed by key value coding"
+	
 	end
 
 end
