@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="379"/>
+			<integer value="376"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1333,6 +1333,12 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>name</string>
 					<string>frequency</string>
+					<string>frequency_name</string>
+					<string>balance</string>
+					<string>allocation</string>
+					<string>refrence_date</string>
+					<string>reference_date</string>
+					<string>target_balance</string>
 				</object>
 				<string key="NSObjectClassName">Allocator::Bucket</string>
 				<bool key="NSEditable">YES</bool>
@@ -1692,28 +1698,96 @@
 					<int key="connectionID">411</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: arrangedObjects.frequency</string>
-						<reference key="source" ref="912442169"/>
-						<reference key="destination" ref="986416049"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="912442169"/>
-							<reference key="NSDestination" ref="986416049"/>
-							<string key="NSLabel">value: arrangedObjects.frequency</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">arrangedObjects.frequency</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">412</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">bucket_table</string>
 						<reference key="source" ref="190677190"/>
 						<reference key="destination" ref="643731677"/>
 					</object>
 					<int key="connectionID">413</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: arrangedObjects.frequency_name</string>
+						<reference key="source" ref="912442169"/>
+						<reference key="destination" ref="986416049"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="912442169"/>
+							<reference key="NSDestination" ref="986416049"/>
+							<string key="NSLabel">value: arrangedObjects.frequency_name</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">arrangedObjects.frequency_name</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">414</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: arrangedObjects.balance</string>
+						<reference key="source" ref="554404403"/>
+						<reference key="destination" ref="986416049"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="554404403"/>
+							<reference key="NSDestination" ref="986416049"/>
+							<string key="NSLabel">value: arrangedObjects.balance</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">arrangedObjects.balance</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">415</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: arrangedObjects.allocation</string>
+						<reference key="source" ref="344601200"/>
+						<reference key="destination" ref="986416049"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="344601200"/>
+							<reference key="NSDestination" ref="986416049"/>
+							<string key="NSLabel">value: arrangedObjects.allocation</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">arrangedObjects.allocation</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">416</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: arrangedObjects.reference_date</string>
+						<reference key="source" ref="697156524"/>
+						<reference key="destination" ref="986416049"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="697156524"/>
+							<reference key="NSDestination" ref="986416049"/>
+							<string key="NSLabel">value: arrangedObjects.reference_date</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">arrangedObjects.reference_date</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSConditionallySetsEditable</string>
+								<boolean value="NO" key="NS.object.0"/>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">418</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: arrangedObjects.target_balance</string>
+						<reference key="source" ref="178575377"/>
+						<reference key="destination" ref="986416049"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="178575377"/>
+							<reference key="NSDestination" ref="986416049"/>
+							<string key="NSLabel">value: arrangedObjects.target_balance</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">arrangedObjects.target_balance</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">419</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2666,6 +2740,13 @@
 					<string>378.IBPluginDependency</string>
 					<string>379.IBPluginDependency</string>
 					<string>381.IBPluginDependency</string>
+					<string>382.IBPluginDependency</string>
+					<string>384.IBPluginDependency</string>
+					<string>385.IBPluginDependency</string>
+					<string>386.IBPluginDependency</string>
+					<string>387.IBPluginDependency</string>
+					<string>388.IBPluginDependency</string>
+					<string>389.IBPluginDependency</string>
 					<string>390.IBPluginDependency</string>
 					<string>392.IBPluginDependency</string>
 					<string>393.IBPluginDependency</string>
@@ -2877,6 +2958,13 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
@@ -2934,7 +3022,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">413</int>
+			<int key="maxID">419</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

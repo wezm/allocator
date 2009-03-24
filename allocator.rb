@@ -1,6 +1,7 @@
 require 'osx/cocoa'
 require 'rubygems'
 require 'sequel'
+require 'date'
 
 module Allocator
 	
@@ -22,14 +23,21 @@ module Allocator
 		def initWithName(name)
 			@name = name #OSX::NSString.alloc.initWithString(name)
 			@frequency = 0
+			@balance = 0
+			@target_balance = 0
+			@reference_date = OSX.NSDate.alloc.initWithTimeIntervalSinceNow(0)
 			init
 			self
 		end
 		
-		attr_reader :name, :frequency
+		attr_accessor :name, :frequency, :balance, :reference_date, :target_balance
 				
 		def allocation
 			0
+		end
+		
+		def frequency_name
+			FREQUENCIES[@frequency]
 		end
 
 	end
