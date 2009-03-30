@@ -25,7 +25,7 @@ module Allocator
 			@frequency = 0
 			@balance = 0
 			@target_balance = 0
-			@reference_date = OSX.NSDate.alloc.initWithTimeIntervalSinceNow(0)
+			@reference_date = OSX::NSDate.alloc.initWithTimeIntervalSinceNow(0)
 			init
 			self
 		end
@@ -53,8 +53,9 @@ module Allocator
 		def load_buckets_from_file(db_path)
 			@db = Sequel.sqlite(db_path)
 			zbuckets = @db[:zbucket]
-			zbuckets.select(:zname, :zfrequency).where(:zishidden => 0).each do |row|
+			zbuckets.where(:zishidden => 0).each do |row|
 				@buckets << Bucket.alloc.initWithName(row[:ZNAME])
+				p row
 			end
 		end
 
